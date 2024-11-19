@@ -1,0 +1,8 @@
+Import('env')
+
+
+common_server=[\
+	"godot_macosClassic.cpp",\
+]
+
+env.Program('#bin/godot_macosClassic',['godot_macosClassic.cpp']+common_server)
